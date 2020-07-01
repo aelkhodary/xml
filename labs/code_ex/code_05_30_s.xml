@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<regions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="code_05_30_s.xsd">
+  <region>
+    <region_id>1</region_id>
+    <region_name>Europe</region_name>
+    <comment>
+      <author>Stokol</author>
+      <junk>This is any text and element which is passed by Schema validation</junk>
+      <html>
+        <head>Region Information</head>
+        <body>This region is where HQ is based</body>
+      </html>
+    </comment>
+  </region>
+</regions>

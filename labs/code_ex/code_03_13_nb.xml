@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!DOCTYPE department [
+<!ELEMENT department (employee+)>
+<!ELEMENT employee (#PCDATA)>
+]>
+<department>
+  <!-- test by removing all employee elements -->
+  <employee>Steven King</employee>
+  <employee>Valli Pataballa</employee>
+</department>

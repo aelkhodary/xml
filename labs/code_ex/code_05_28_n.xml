@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.hr.com/employee code_05_28_s.xsd"
+           xmlns="http://www.hr.com/employee">
+  <employee>
+    <full_name>Steven King</full_name>
+    <contract>
+      <full_time>Permanent</full_time>
+    </contract>
+  </employee>
+  <employee>
+    <full_name>Steven King</full_name>
+    <contract>
+    <!-- Error can't contain both children  -->
+      <full_time>Permanent</full_time>
+      <part_time>Six months</part_time>
+    </contract>
+  </employee>
+</employees>

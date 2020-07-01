@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!DOCTYPE jobs [
+<!ELEMENT jobs (president , (manager | clerk)*)>
+<!ELEMENT president EMPTY>
+<!ELEMENT manager EMPTY>
+<!ELEMENT clerk EMPTY>
+]>
+<jobs>
+  <president/><!-- DTD allows one president at the start -->
+  <!-- DTD allows one or more manager or clerk elements in any order -->
+  <manager/>
+  <clerk/>
+  <manager/>
+  <clerk/>
+  <clerk/>
+</jobs>

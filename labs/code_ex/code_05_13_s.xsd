@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="region">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="region_id" type="xsd:int"/>
+        <xsd:element name="region_name" type="xsd:string"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

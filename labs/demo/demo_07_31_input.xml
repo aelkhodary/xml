@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+The slide uses "emp.xsl" as the href value, which is replaced
+here with a href to code_07_06_s.xsl to produced the desired results
+-->
+<?xml-stylesheet type="text/xsl" href="demo_employees.xsl"?>
+<employees>
+  <employee>
+    <employee_id>100</employee_id>
+    <last_name>King</last_name>
+    <salary>24000</salary>
+  </employee>
+  <employee>
+    <employee_id>101</employee_id>
+    <last_name>Kochhar</last_name>
+    <salary>18000</salary>
+  </employee>
+</employees>

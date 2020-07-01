@@ -1,0 +1,4 @@
+<!ENTITY % employee_elements SYSTEM "code_03_21_sb_empelm.txt">
+<!ELEMENT employee (%employee_elements;)>
+<!ELEMENT first_name (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>

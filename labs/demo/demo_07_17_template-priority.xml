@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="demo_07_17_template-priority.xsl"?>
+<employees>
+  <employee>
+    <employee_id>120</employee_id>
+    <first_name>Jodi</first_name>
+    <last_name>Weis</last_name>
+    <salary>8000</salary>
+  </employee>
+  <employee>
+    <employee_id>121</employee_id>
+    <first_name>John</first_name>
+    <last_name>Doe</last_name>
+    <salary>8500</salary>
+  </employee>
+</employees>
+

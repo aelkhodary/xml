@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!DOCTYPE employee SYSTEM "code_05_48_s.dtd">
+<employee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="code_05_48_s.xsd">
+   <employee_id>120</employee_id>
+   <last_name>Weiss</last_name>
+</employee>

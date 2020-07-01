@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!DOCTYPE employees SYSTEM "employees.dtd">
+<employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.hr.com/employees employees.xsd"
+           xmlns="http://www.hr.com/employees">
+  <!-- Company Employee Data -->
+  <employee>
+    <employee_id>103</employee_id>
+    <first_name>Alexander</first_name>
+    <last_name>Hunold</last_name>
+    <salary>9000</salary>
+  </employee>
+  <employee>
+    <employee_id>104</employee_id>
+    <first_name>Bruce</first_name>
+    <last_name>Ernst</last_name>
+    <salary>6000</salary>
+  </employee>
+  <employee>
+    <employee_id>105</employee_id>
+    <first_name>David</first_name>
+    <last_name>Austin</last_name>
+    <salary>4800</salary>
+  </employee>
+  <employee>
+    <employee_id>106</employee_id>
+    <first_name>Valli</first_name>
+    <last_name>Pataballa</last_name>
+    <salary>4800</salary>
+  </employee>
+  <employee>
+    <employee_id>107</employee_id>
+    <first_name>Diana</first_name>
+    <last_name>Lorentz</last_name>
+    <salary>4200</salary>
+  </employee>
+  <employee>
+    <employee_id>007</employee_id>
+    <first_name>James</first_name>
+    <last_name>Bond</last_name>
+    <salary>5000</salary>
+  </employee>
+  <employee>
+    <employee_id>108</employee_id>
+    <first_name>Nancy</first_name>
+    <last_name>Greenberg</last_name>
+    <salary>12000</salary>
+  </employee>
+</employees>

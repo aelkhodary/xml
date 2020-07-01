@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<departments xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="code_05_27_s.xsd">
+  <department>
+    <department_id>10</department_id>
+    <department_name>Administration</department_name>
+  </department>
+  <department>
+    <department_id>20</department_id>
+    <department_name>Marketing</department_name>
+    <location_id>1800</location_id>
+    <!-- Error -->
+    <manager_id>201</manager_id>
+  </department>
+</departments>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<jobs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.hr.com/jobs code_05_23_n.xsd"
+      xmlns="http://www.hr.com/jobs">
+  <job>
+    <job_id>AC_MGR</job_id>  <!-- This ID will be valid -->
+    <job_title>Account Manager</job_title>
+    <min_salary>1000</min_salary>
+    <max_salary>8000</max_salary>
+  </job>
+  <job>
+    <job_id>XX_MGR</job_id>  <!-- This ID will be an error -->
+    <job_title>Other Manager</job_title>
+    <min_salary>1100</min_salary>
+    <max_salary>75000</max_salary>
+  </job>  
+</jobs>

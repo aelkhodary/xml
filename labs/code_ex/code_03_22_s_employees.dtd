@@ -1,0 +1,7 @@
+<!ELEMENT employees (employee+)>
+<!ELEMENT employee (employee_id, last_name)>
+<!ATTLIST employee manager_id CDATA #IMPLIED
+                   department_id (10|60|90) '90'>
+<!ELEMENT employee_id (#PCDATA )>
+<!ELEMENT last_name (#PCDATA )>
+

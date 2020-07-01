@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!DOCTYPE employees [
+<!ELEMENT employees (employee)>
+<!ELEMENT employee (last_name, hire_date+)>
+<!ELEMENT last_name (#PCDATA)>
+<!ELEMENT hire_date (date | (day,month,year))>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+]>
+<employees>
+  <employee>
+    <last_name>King</last_name>
+    <hire_date><date>May 20, 1996</date></hire_date>
+    <hire_date>
+      <day>20</day>
+      <month>May</month>
+      <year>1996</year>
+    </hire_date>
+  </employee>
+</employees>

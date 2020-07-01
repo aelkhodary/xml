@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!DOCTYPE employees [
+<!ELEMENT employees (employee)>
+<!ELEMENT employee (employee_id,last_name,job_id)>
+<!ELEMENT job_id (manager | worker)>
+<!ELEMENT employee_id (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+<!ELEMENT manager (#PCDATA)>
+<!ELEMENT worker (#PCDATA)>
+]>
+<employees>
+  <employee>
+    <!-- Experiment with the order of elements to
+         demonstrate the ordered list -->
+    <employee_id>100</employee_id>
+    <last_name>King</last_name>
+    <job_id>
+      <manager>AD_PRES</manager>
+      <!-- Uncomment the next element to
+           demonstration the choice
+      <worker>AD_PRES</worker>
+      -->
+    </job_id>
+  </employee>
+</employees>

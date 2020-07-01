@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DEPARTMENTS>
+  <department department_id="10" department_name="Administration" 
+              manager_id="" location_id="1700"/>
+  <department department_id="20" department_name="Marketing"
+              manager_id="201" location_id="Toronto"/>
+  <department department_id="30" department_name="Purchasing"
+              manager_id="114" location_id="1700"/>
+  <department department_id="40" department_name="Human Resources"
+              location_id="2400"/>
+</DEPARTMENTS>

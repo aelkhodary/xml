@@ -1,0 +1,6 @@
+<!ELEMENT employee (employee_id, last_name)>
+<!ELEMENT employee_id (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+<!-- Defined attributes for using XML Schema so that the DTD will still work -->
+<!ATTLIST employee xmlns:xsi CDATA #IMPLIED>
+<!ATTLIST employee xsi:noNamespaceSchemaLocation CDATA #IMPLIED>

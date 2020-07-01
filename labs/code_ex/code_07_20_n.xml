@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="code_07_20_s.xsl"?>
+<departments>
+  <department>
+    <department_id>10</department_id>
+    <department_name>Administration</department_name>
+  </department>
+  <department>
+    <department_id>20</department_id>
+    <department_name>Marketing</department_name>
+    <manager_id>201</manager_id>
+    <location_id>Toronto</location_id>
+  </department>
+  <department>
+    <department_id>30</department_id>
+    <department_name>Purchasing</department_name>
+    <manager_id>114</manager_id>
+    <location_id>1700</location_id>
+  </department>
+  <department>
+    <department_id>40</department_id>
+    <department_name>Human Resources</department_name>
+    <location_id>2400</location_id>
+  </department>
+</departments>

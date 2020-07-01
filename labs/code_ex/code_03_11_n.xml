@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!DOCTYPE person [
+<!ELEMENT person (full_name | (first_name, last_name))>
+<!ELEMENT full_name (#PCDATA)>
+<!ELEMENT first_name (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+]>
+<person>
+  <full_name>Steven King</full_name>
+  <!-- or 
+  <first_name>Steven</first_name>
+  <last_name>King</last_name>
+  -->
+</person>

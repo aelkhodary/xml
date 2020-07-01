@@ -1,0 +1,4 @@
+<!ENTITY % employee_elements "last_name, salary">
+<!ELEMENT employee (%employee_elements;)>
+<!ELEMENT last_name (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>

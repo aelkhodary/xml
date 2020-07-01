@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+  <employee id="100">
+    <name>Rachael O&apos;Leary</name>
+  </employee>
+  <![CDATA[ ...unparsed data ... ]]>
+</employees>

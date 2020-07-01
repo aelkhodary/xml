@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!-- Used this to test different stylesheet examples presented in this lesson-->
+<?xml-stylesheet type="text/xsl" href="code_07_12_s.xsl" ?>
+<!--
+Replace the above <?xml-stylesheet ... ?> line with these from:
+Page 7-12s: <?xml-stylesheet type="text/xsl" href="code_07_12_s.xsl" ?>
+Page 7-13s: <?xml-stylesheet type="text/xsl" href="code_07_13_s.xsl" ?>
+Page 7-13n: <?xml-stylesheet type="text/xsl" href="code_07_13_n.xsl" ?>
+Page 7-16s: <?xml-stylesheet type="text/xsl" href="code_07_16_s.xsl" ?>
+-->
+<regions>
+  <region num="1">
+    <id>1</id>
+    <name>Europe</name>
+  </region>
+  <region num="2">
+    <id>2</id>
+    <name>Americas</name>
+  </region>
+  <region num="3">
+    <id>3</id>
+    <name>Asia</name>
+  </region>
+  <region num="4">
+    <id>4</id>
+    <name>Middle East and Africa</name>
+  </region>
+</regions>

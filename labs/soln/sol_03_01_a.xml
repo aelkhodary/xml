@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<employees>
+  <!-- Company Employee Data -->
+  <employee>
+    <employee_id>103</employee_id>
+    <first_name>Alexander</first_name>
+    <last_name>Hunold</last_name>
+    <salary>9000</salary>
+  </employee>
+  <employee>
+    <employee_id>104</employee_id>
+    <first_name>Bruce</first_name>
+    <last_name>Ernst</last_name>
+    <salary>6000</salary>
+  </employee>
+  <employee>
+    <employee_id>105</employee_id>
+    <first_name>David</first_name>
+    <last_name>Austin</last_name>
+    <salary>4800</salary>
+  </employee>
+  <employee>
+    <employee_id>106</employee_id>
+    <first_name>Valli</first_name>
+    <last_name>Pataballa</last_name>
+    <salary>4800</salary>
+  </employee>
+  <employee>
+    <employee_id>107</employee_id>
+    <first_name>Diana</first_name>
+    <last_name>Lorentz</last_name>
+    <salary>4200</salary>
+  </employee>
+  <employee>
+    <emp_id>007</emp_id>
+    <last_name>Bond</last_name>
+    <first_name>James</first_name>
+  </employee>  
+</employees>

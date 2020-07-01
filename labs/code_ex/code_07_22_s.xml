@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!--
+Since Internet Explorer cannot handle XML -> XML transformation, run 
+this file using Oraxsl utility and supply code_07_22_s.xsl as the 
+parameter at the prompt as follows:
+$ cd labs/code_ex
+$ java oracle.xml.parser.v2.oraxsl code_07_22_s.xml code_07_22_s.xsl result.html
+
+-->
+<region>
+  <region_id>1</region_id>
+  <region_name>Europe</region_name>
+</region>

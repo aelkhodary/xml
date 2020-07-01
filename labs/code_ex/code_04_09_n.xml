@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<book xmlns="urn:book:default-ns"
+      xmlns:lsn="urn:book:lesson-ns">
+  <title>Oracle 11g: XML Fundamentals</title>
+  <lsn:lesson num="0">
+     <lsn:title>Introduction</lsn:title>
+  </lsn:lesson>
+  <lsn:lesson num="1">
+     <lsn:title>Introducing the XML Document</lsn:title>
+  </lsn:lesson>
+</book>

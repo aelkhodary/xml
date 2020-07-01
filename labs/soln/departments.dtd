@@ -1,0 +1,7 @@
+<!ELEMENT departments (department)*>
+<!ELEMENT department (department_id, department_name, manager_id?, location_id?)>
+<!ATTLIST department num CDATA #REQUIRED>
+<!ELEMENT department_id (#PCDATA)>
+<!ELEMENT department_name (#PCDATA)>
+<!ELEMENT manager_id (#PCDATA)>
+<!ELEMENT location_id (#PCDATA)>

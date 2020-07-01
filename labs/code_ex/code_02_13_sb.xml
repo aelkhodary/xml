@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<employees>
+  <employee id="100" last_name="King" salary="24000">
+    <job>President</job>
+  </employee>
+</employees>

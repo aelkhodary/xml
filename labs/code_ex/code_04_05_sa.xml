@@ -1,0 +1,4 @@
+<dept:department
+  xmlns:dept="urn:hr:department-ns">
+...
+</dept:department>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!DOCTYPE employees [
+<!ELEMENT employees (employee*)>
+<!ELEMENT employee (employee_id, last_name)>
+<!ATTLIST employee department_id (10|60|90) '90'>
+<!ELEMENT employee_id (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+]>
+<!--
+  Display this file in your Web browser to see the
+  default value of 90 assigned to department_id attribute
+  for the last employee element.
+-->
+<employees>
+  <employee department_id="10">
+    <employee_id>200</employee_id>
+    <last_name>Whalen</last_name>
+  </employee>
+  <employee department_id="60">
+    <employee_id>103</employee_id>
+    <last_name>Hunold</last_name>
+  </employee>
+  <employee department_id="90">
+    <employee_id>102</employee_id>
+    <last_name>De Haan</last_name>
+  </employee>
+  <employee> <!-- default of department_id="90" assumed -->
+    <employee_id>100</employee_id>
+    <last_name>King</last_name>
+  </employee>  
+</employees>

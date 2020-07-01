@@ -1,0 +1,7 @@
+<!ENTITY % personcontent "(id, firstname, lastname)">
+<!ELEMENT people (employee*, manager*)>
+<!ELEMENT employee %personcontent;>
+<!ELEMENT manager %personcontent;>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>

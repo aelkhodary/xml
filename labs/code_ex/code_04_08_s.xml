@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<root-level xmlns="urn:demo:default-ns"
+            xmlns:one="urn:hr:one-ns"
+            xmlns:two="urn:hr:two-ns">
+  <level-one id="1">A</level-one>
+  <one:level-one id="2">
+    <one:level-two>B</one:level-two>
+    <two:level-two>C</two:level-two>
+  </one:level-one>
+  <one:level-one xmlns:one="urn:one:override-ns">
+    <level-two xmlns="">D</level-two>
+    <level-two>E</level-two>
+    <level-two xmlns:two="urn:two:override-ns">F
+    </level-two>
+  </one:level-one>
+</root-level>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<department xmlns="urn:hr:department-ns"
+            xmlns:emp="urn:hr:employee-ns">
+  <name>Executive</name>
+  <emp:employee>
+    <emp:name>
+      <emp:first_name>Steven</emp:first_name>
+      <emp:last_name>King</emp:last_name>
+    </emp:name>
+  </emp:employee>
+  <emp:employee>
+    <emp:name>
+      <emp:first_name>Neena</emp:first_name>
+      <emp:last_name>Kochhar</emp:last_name>
+    </emp:name>
+  </emp:employee>
+</department>

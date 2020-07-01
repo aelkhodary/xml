@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<A:department xmlns:A="http://www.a.org/">
+  <A:employees>
+    <B:name xmlns:B="http://www.b.org/">
+      <B:first_name>Steven</B:first_name>
+      <B:last_name>King</B:last_name>
+    </B:name>
+  </A:employees>
+</A:department>

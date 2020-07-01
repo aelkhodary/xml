@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!-- 
+Open this in Mozilla Firefox
+-->
+<?xml-stylesheet type="text/xsl" href="code_07_25_s.xsl"?>
+<employees>
+  <employee num="1">
+    <employee_id>100</employee_id>
+    <last_name>King</last_name>
+  </employee>
+  <employee num="2">
+    <employee_id>101</employee_id>
+    <last_name>Kochhar</last_name>
+  </employee>
+  <employee num="3">
+    <employee_id>102</employee_id>
+    <last_name>De Haan</last_name>
+  </employee>
+</employees>

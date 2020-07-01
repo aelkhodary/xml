@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!DOCTYPE employee SYSTEM "code_03_21_sa.dtd">
+<!-- Validate this using OraXML-dtd -->
+<employee>
+  <last_name>King</last_name>
+  <salary>2000</salary>
+</employee>

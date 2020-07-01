@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<jobs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.hr.com/jobs code_05_24_n.xsd"
+      xmlns="http://www.hr.com/jobs">
+  <job>
+    <job_id>AC_MGR</job_id>  <!-- This ID will be valid -->
+    <job_title>Account Manager</job_title>
+  </job>
+  <job>
+    <job_id>AC_REP</job_id>  <!-- This ID will be valid -->
+    <job_title>Other Manager</job_title>
+  </job>
+  <job>
+    <job_id>MY_REP</job_id>  <!-- This ID will be an error -->
+    <job_title>Other Manager</job_title>
+  </job>  
+</jobs>
+

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<test xmlns:xsi="http://www.w3.org/2001/XMLschema-instance"
+   xsi:schemaLocation="http://www.demo.com/test code_05_46_test.xsd"
+   xmlns="http://www.demo.com/test">
+Sample data
+</test>

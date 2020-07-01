@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!DOCTYPE entities [
+<!ENTITY company "Oracle Corporation">
+<!ENTITY Emperor "Alexander &quot;The Great&quot;">
+<!ENTITY president "<employee>
+                      <last_name>King</last_name>
+                    </employee>">
+]>
+<!--
+  View in Web browser to see the replacement text
+  for each entity reference
+-->
+<entities>
+  <organization>
+  &company; is a software company
+  </organization>
+  <emperor>&Emperor;</emperor>
+  <ceo>
+  &president;
+  </ceo>
+</entities>

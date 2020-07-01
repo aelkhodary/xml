@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!DOCTYPE employees [
+<!ELEMENT employees (employee*)>
+<!ELEMENT employee (employee_id, last_name)>
+<!ATTLIST employee manager_id CDATA #IMPLIED>
+<!ELEMENT employee_id (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+]>
+<employees>
+  <employee manager_id="100">
+    <employee_id>101</employee_id>
+    <last_name>Kochhar</last_name>
+  </employee>
+  <employee>
+    <!-- manager_id attribute is optional/impied -->
+    <employee_id>100</employee_id>
+    <last_name>King</last_name>
+    <!-- Does not have a manager -->
+  </employee>
+</employees>

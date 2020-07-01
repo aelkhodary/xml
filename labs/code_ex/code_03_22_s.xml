@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE employees SYSTEM "code_03_22_s_employees.dtd" [
+<!ENTITY title "Mr">
+]>
+<employees>
+  <employee manager_id="100" department_id="10">
+    <employee_id>100</employee_id>
+    <last_name>&title; king</last_name>
+  </employee>
+</employees>

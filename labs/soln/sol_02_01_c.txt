@@ -1,0 +1,8 @@
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                SALARY
+----------- -------------------- -------------------- ----------
+        103 Alexander            Hunold                     9000
+        104 Bruce                Ernst                      6000
+        105 David                Austin                     4800
+        106 Valli                Pataballa                  4800
+        107 Diana                Lorentz                    4200

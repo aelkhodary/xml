@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:simpleType name="empid">
+    <!-- for positiveInteger the minimum is 1 -->
+    <xsd:restriction base="xsd:positiveInteger">
+      <xsd:maxInclusive value="1000"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:element name="employee">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="employee_id" type="empid"/>
+        <xsd:element name="last_name" type="xsd:string"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="regions">
+    <xsd:annotation>
+      <xsd:appinfo source="file:///d:/labs/anno.xml"/>
+      <xsd:documentation>
+      A <b>big</b> comment about this Schema
+      </xsd:documentation>
+    </xsd:annotation>
+  </xsd:element>
+</xsd:schema>

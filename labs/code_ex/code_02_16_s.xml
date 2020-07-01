@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Comment: This document has information about
+     employees in the company -->
+<employees>
+  <name>Steven King</name><!-- Full name -->
+</employees>

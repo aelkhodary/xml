@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!-- Code for CDATA Attribute type example -->
+<!DOCTYPE employee [
+<!ELEMENT employee (employee_id, last_name)>
+<!ATTLIST employee manager_id CDATA #IMPLIED>
+<!ELEMENT employee_id (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+]>
+<employee manager_id="102">
+  <employee_id>104</employee_id>
+  <last_name>Ernst</last_name>
+</employee>

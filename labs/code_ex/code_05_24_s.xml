@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<employee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="code_05_24_s.xsd">
+  <employee_id>100</employee_id>
+  <last_name>King</last_name>
+  <email>SKING sking@hr.com</email>
+</employee>

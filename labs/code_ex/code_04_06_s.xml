@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<emp:employee xmlns:emp="urn:hr:employee-ns">
+  <emp:last_name>King</emp:last_name>
+  <emp:address xmlns:emp="urn:hr:address-ns">
+  500 Oracle Parkway
+  </emp:address>
+</emp:employee>

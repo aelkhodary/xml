@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!DOCTYPE departments SYSTEM "departments.dtd" [
+<!ATTLIST department num CDATA #IMPLIED>
+<!ENTITY deptData SYSTEM "newdepts.txt">
+]>
+<departments>
+  <department num="1">
+    <department_id>10</department_id>
+    <department_name>Administration</department_name>
+    <manager_id></manager_id>
+    <location_id>1700</location_id>
+  </department>
+  <department num="2">
+    <department_id>20</department_id>
+    <department_name>Marketing</department_name>
+    <manager_id>201</manager_id>
+    <location_id>Toronto</location_id>
+  </department>
+  &deptData;
+</departments>

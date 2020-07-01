@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!-- Display this file in a web browser to see the transformation -->
+<?xml-stylesheet type="text/xsl" href="code_06_28_s.xsl"?>
+<departments>
+  <department num="1">
+    <department_id>10</department_id>
+    <department_name>Administration</department_name>
+    <manager_id>200</manager_id>
+    <location_id>1700</location_id>
+  </department>
+  <department num="2">
+    <department_id>20</department_id>
+    <department_name>Marketing</department_name>
+    <manager_id>201</manager_id>
+    <location_id>1800</location_id>
+  </department>
+</departments>

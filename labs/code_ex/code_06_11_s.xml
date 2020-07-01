@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+Use JDeveloper XPath Search with the following XPath expression (from the Search menu, select XPath Search. Next enter the expression in the Search field, select 
+XPath Version 1.0 from the drop-down list:
+  /departments/department/department_id
+-->
+<departments>
+ <department num="1">
+  <department_id>10</department_id>
+  <department_name>Administration</department_name>
+ </department>
+</departments>

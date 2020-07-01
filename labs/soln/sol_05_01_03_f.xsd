@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns="http://www.hr.com/employees"
+            targetNamespace="http://www.hr.com/employees"
+            elementFormDefault="qualified" >
+
+  <xsd:element name="employees">
+    <xsd:annotation>
+      <xsd:documentation>The employees element</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="employee" maxOccurs="unbounded">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="employee_id"/>
+              <xsd:element name="first_name"/>
+              <xsd:element name="last_name"/>
+              <xsd:element name="salary"/>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+</xsd:schema>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<employee>
+  <name>
+    <first_name>Steven</first_name>
+    <last_name>King</last_name>
+  </name>
+  <salary>2000</salary>
+</employee>

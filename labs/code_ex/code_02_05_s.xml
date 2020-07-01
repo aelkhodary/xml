@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<employees>
+  <employee>
+    <employee_id>120</employee_id>
+    <last_name>Weiss</last_name>
+    <salary>8000</salary>
+  </employee>
+    <employee>
+    <employee_id>121</employee_id>
+    <last_name>Fripp</last_name>
+    <salary>8200</salary>
+  </employee>
+</employees>

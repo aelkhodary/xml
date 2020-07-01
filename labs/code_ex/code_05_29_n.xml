@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<departments xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.hr.com/departments code_05_29_s.xsd"
+             xmlns="http://www.hr.com/departments">
+  <department department_id="10"
+              department_name="Administration"></department>
+  <department department_id="20" department_name="Marketing"/>
+  <department department_id="30" department_name="Purchasing">
+    <marker/>
+  </department>
+</departments>

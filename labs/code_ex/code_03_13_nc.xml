@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!DOCTYPE employees [
+<!ELEMENT employees (employee*)>
+<!ELEMENT employee (last_name,salary,commission_pct?)>
+<!ELEMENT last_name (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+<!ELEMENT commission_pct (#PCDATA)>
+]>
+<employees>
+  <employee>
+    <last_name>King</last_name>
+    <salary>24000</salary>
+    <commission_pct>0.5</commission_pct>
+  </employee>
+  <employee>
+    <last_name>Greenberg</last_name>
+    <salary>26000</salary>
+    <!-- commission_pct element is optional -->
+  </employee>
+</employees>

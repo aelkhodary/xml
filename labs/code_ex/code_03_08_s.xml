@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE employees [
+<!ELEMENT employees (employee)>
+<!ELEMENT employee (name)>
+<!ELEMENT name (#PCDATA)>
+]>
+<employees>
+  <employee>
+    <name>Steven King</name>
+  </employee>
+</employees>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!DOCTYPE employees [
+<!ELEMENT employees (employee*)>
+<!ELEMENT employee (employee_id, last_name)>
+<!ATTLIST employee manager_id CDATA #IMPLIED>
+<!ATTLIST employee min_salary CDATA #FIXED '4000'>
+<!ELEMENT employee_id (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+]>
+<!-- Display in Web browser to see the fix value -->
+<employees>
+  <employee manager_id="101">
+    <employee_id>200</employee_id>
+    <last_name>Whalen</last_name>
+  </employee>
+  <employee manager_id="102">
+    <employee_id>103</employee_id>
+    <last_name>Hunold</last_name>
+  </employee>
+<!-- uncomment this element to show violation of FIXED value
+  <employee manager_id="100" min_salary="5000">
+    <employee_id>102</employee_id>
+    <last_name>De Haan</last_name>
+  </employee>
+-->
+</employees>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="code_07_18_n.xsl"?>
+<!-- Try this with href="code_07_18_s.xsl" to see you get the same results -->
+<regions>
+  <region num="1">
+    <id>1</id>
+    <name>Europe</name>
+  </region>
+  <region num="2">
+    <id>2</id>
+    <name>Americas</name>
+  </region>
+  <region num="3">
+    <id>3</id>
+    <name>Asia</name>
+  </region>
+  <region num="4">
+    <id>4</id>
+    <name>Middle East and Africa</name>
+  </region>
+</regions>

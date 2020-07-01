@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!-- Enumerated code example -->
+<!DOCTYPE employees [
+<!ELEMENT employees (employee*)>
+<!ELEMENT employee (employee_id, last_name)>
+<!ATTLIST employee gender (male|female) #IMPLIED>
+<!ELEMENT employee_id (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+]>
+<employees>
+  <employee gender="male">
+    <employee_id>104</employee_id>
+    <last_name>Ernst</last_name>
+  </employee>
+  <employee gender="female">
+    <employee_id>108</employee_id>
+    <last_name>Greenberg</last_name>
+  </employee>  
+</employees>

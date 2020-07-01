@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<region xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="code_05_13_s.xsd">
+  <region_id>1</region_id>
+  <region_name>Europe</region_name>
+</region>

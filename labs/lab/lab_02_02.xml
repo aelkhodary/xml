@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<employees>
+  <!-- Template for employee elements -->
+  <employee>
+    <employee_id><!-- id --></employee_id>
+    <first_name><!-- first name --></first_name>
+    <last_name><!-- last name --></last_name>
+    <salary><!-- salary --></salary>
+  </employee>
+</employees>

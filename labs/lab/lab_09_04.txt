@@ -1,0 +1,14 @@
+set long 5000
+Select * from XMLTable('
+for $i in ora:view("EMPLOYEES")/ROW
+where $i/EMPLOYEE_ID/text() < 110
+return
+	<EMPLOYEE id="{$i/EMPLOYEE_ID}">
+		<EMPLOYEE_NAME>
+			{$i/FIRST_NAME/text()}
+					_{$i/LAST_NAME/text()}
+		</EMPLOYEE_NAME>
+		<Incremented_salary>
+			<TODO>
+		</Incremented_salary>
+	</EMPLOYEE>');

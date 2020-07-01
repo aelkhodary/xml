@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<regions>
+  <region id="1">
+    <name>Europe</name>
+  </region>
+  <region id="2">
+    <name>Americas</name>
+  </region>
+  <region id="3">
+    <name>Asia</name>
+  </region>
+  <region id="4">
+    <name>Middle East and Africa</name>
+  </region>  
+</regions>

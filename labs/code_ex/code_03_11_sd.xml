@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!DOCTYPE employee_id [
+<!ELEMENT employee_id ANY> 
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT alias (#PCDATA)>
+]>
+<employee_id>
+ <name>Joe</name>
+ <alias>Cool Dude</alias>
+ <alias>Super Sam</alias>
+ <name>Sam</name>
+</employee_id>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<employee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="code_05_22_s.xsd">
+  <employee_id>999</employee_id>
+  <last_name>Sklair</last_name>
+</employee>
+<!--
+  Change the value in the text node for the employee_id element
+  to be greater than 1000 (and temporarily save), and then validate with the 	
+  Validate XML context menu. The schema should prevent values greater than 1000 in 
+  the employee_id element. Note the message in the XML Validation Errors - Log pane 
+  below the XML Code Editor pane, or in the Structure pane.
+-->

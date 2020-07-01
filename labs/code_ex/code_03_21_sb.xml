@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!DOCTYPE employee SYSTEM "code_03_21_sb.dtd">
+<!-- 
+   This version uses a DTD with an external parameter entity,
+   that is, the parameter entity gets its value from a text file.
+   
+   Validate this using OraXML-dtd    
+-->
+<employee>
+  <first_name>Steven</first_name>
+  <salary>2000</salary>
+</employee>

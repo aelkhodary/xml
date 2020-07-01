@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- Employee data -->
+<employees>
+<!-- Try the following XPath expressions in the slide using XPath Search:
+1. //last_name
+2. employees/employee/name/first_name/text()
+3. employees//salary
+4. employees/employee/@employee_id
+5. comment()
+-->
+  <employee employee_id="100">
+    <name>
+      <first_name>Steven</first_name>
+	 <last_name>King</last_name>
+    </name>
+    <salary>24000</salary>
+  </employee>
+  <employee employee_id="101">
+    <name>
+      <first_name>Neena</first_name>
+      <last_name>Kochhar</last_name>
+    </name>
+    <salary>18000</salary>
+  </employee>
+</employees>

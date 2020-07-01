@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE photos [
+<!ELEMENT photos (image+)>
+<!ELEMENT image EMPTY>
+<!NOTATION gif SYSTEM "image/gif">
+<!NOTATION jpeg SYSTEM "image/jpeg">
+<!ATTLIST image
+   source CDATA #REQUIRED
+   type NOTATION (gif | jpeg) #REQUIRED>
+]>
+<photos>
+  <image source="myphoto.gif" type="gif"/>
+  <image source="mypet.jpg" type="jpeg"/>
+</photos>

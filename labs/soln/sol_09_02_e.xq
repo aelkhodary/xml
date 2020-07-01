@@ -1,0 +1,1 @@
+doc("lab_09_emp.xml")//employee[(substring(full_name,1,1))='M']

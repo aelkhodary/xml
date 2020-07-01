@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<departments>
+  <department>
+    <department_id>10</department_id>
+    <department_name>Administration</department_name>
+    <location_id>1700</location_id>
+    <manager_id></manager_id>
+  </department
+  <department>
+    <department_id>20</department_id>
+    <department_name>Marketing</department_name>
+    <Manager_id>201</manager_id>
+    <location_id>Toronto</location_id>
+  </departmnt>
+</departments>

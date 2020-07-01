@@ -1,0 +1,13 @@
+for $i in 
+doc("lab_09_emp.xml")//employee
+where <TODO>
+return
+<Incremented_Salary>
+{
+$i/full_name
+}
+{<TODO>
+then ($i/salary)+500
+<TODO>}
+</Incremented_Salary>                  
+ 

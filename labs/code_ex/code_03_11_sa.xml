@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!DOCTYPE job [
+<!ELEMENT job EMPTY>
+<!ATTLIST job id CDATA #IMPLIED>
+]>
+<job/>
+<!--  Exchange the above element for one of the versions in this
+      comment to test variations with the DTD declaration above.
+<job></job>
+<job id="ST_CLERK"/>
+-->

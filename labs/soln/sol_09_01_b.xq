@@ -1,0 +1,1 @@
+doc("lab_09_library.xml")/library/book[price>45]

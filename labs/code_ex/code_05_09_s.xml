@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- XML document -->
+<departments xmlns="http://www.hr.com/departments"
+             xmlns:xsi="http://www.w3.org/2001/XMLschema-instance"
+             xsi:schemaLocation="http://www.hr.com/departments code_05_09_s.xsd">
+Finance
+</departments>

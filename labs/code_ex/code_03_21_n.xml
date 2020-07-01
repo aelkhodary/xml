@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!DOCTYPE people SYSTEM "code_03_21_n.dtd">
+<!-- Validate this using OraXML-dtd -->
+<people>
+  <employee>
+    <id>10</id>
+    <firstname>William</firstname>
+    <lastname>Ryker</lastname>
+  </employee>
+  <manager>
+    <id>20</id>
+    <firstname>Jean-Luc</firstname>
+    <lastname>Picard</lastname>
+  </manager>
+</people>

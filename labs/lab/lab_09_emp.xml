@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<employees>
+<employee>
+  <employee_id>1</employee_id>
+    <full_name>Marcie Young</full_name>
+    <email_id>myoung</email_id>
+    <phone>111-11-1111</phone>
+    <manager>Nancy</manager>
+    <join_date>1997-10-12</join_date>
+    <salary>5000</salary>
+  </employee>
+<employee>
+  <employee_id>2</employee_id>
+    <full_name>Glenn Stokol</full_name>
+    <email_id>gstokol</email_id>
+    <phone>222-22-2222</phone>
+    <manager>Valli</manager>
+    <join_date>1993-12-08</join_date>
+    <salary>3500</salary>
+  </employee>
+<employee>
+  <employee_id>3</employee_id>
+    <full_name>Srinivas Putrevu</full_name>
+    <email_id>sputrevu</email_id>
+    <phone>333-33-3333</phone>
+    <manager>Yi</manager>
+    <join_date>1999-07-21</join_date>
+    <salary>3000</salary>
+  </employee>
+<employee>
+  <employee_id>4</employee_id>
+    <full_name>Richard Green</full_name>
+    <email_id>rgreen</email_id>
+    <phone>444-44-4444</phone>
+    <manager>Nancy</manager>
+    <join_date>1998-08-11</join_date>
+    <salary>4000</salary>
+  </employee>
+<employee>
+  <employee_id>5</employee_id>
+    <full_name>Bijoy Choudhury</full_name>
+    <email_id>bchoudhury</email_id>
+    <phone>555-55-5555</phone>
+    <manager>Valli</manager>
+    <join_date>2000-03-12</join_date>
+    <salary>3000</salary>
+  </employee>
+<employee>
+<employee_id>6</employee_id>
+    <full_name>kiran kumar</full_name>
+    <email_id>kkumar</email_id>
+    <phone>666-66-666</phone>
+    <manager></manager>
+    <join_date>2001-04-10</join_date>
+    <salary>2800</salary>
+  </employee>
+
+</employees>
+
