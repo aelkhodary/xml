@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding="UTF-8"?>
 <departments>
-  <department num=1>
+  <department num='1'>
     <department_id>10</department_id>
     <department_name>Administration</department_name>
     <location_id>1700</location_id>

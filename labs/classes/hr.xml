@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<hr xmlns="urn:hr:default">
+  <dept:department xmlns="" xmlns:dept="urn:hr:department">
+    <dept:department_id>60</dept:department_id>
+    <dept:department_name>IT</dept:department_name>
+    <dept:manager_id>103</dept:manager_id>
+    <location_id>1400</location_id>
+    <emp:employees xmlns:emp="urn:hr:employees">
+      <employee xmlns="urn:hr:employee-default">
+        <employee_id>103</employee_id>
+        <first_name>Alexander</first_name>
+        <last_name>Hunold</last_name>
+        <salary>9000</salary>
+      </employee>
+      <employee>
+        <employee_id>104</employee_id>
+        <first_name>Bruce</first_name>
+        <last_name>Ernst</last_name>
+        <salary>6000</salary>
+      </employee>
+    </emp:employees>
+  </dept:department>
+</hr>

@@ -1,3 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="regions">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="region" maxOccurs="unbounded">
+          <xsd:complexType>
+            <xsd:sequence>
+            <xsd:element name="region_id" type="xsd:int"/>
+            <xsd:element name="region_name" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
 </xsd:schema>
